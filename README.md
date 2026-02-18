@@ -1,7 +1,7 @@
 # Tenderoyashe (Tendi) Zhou
 
 Hi, I’m Tenderoyashe (Tendi) Zhou, a Technical Writer based in Warsaw, Poland.  
-I create clear, structured documentation that helps users, support teams, and product teams move faster with fewer misunderstandings.
+I create clear, structured documentation that helps users, support teams, and product teams move faster with fewer misunderstandings.I specialise in transforming complex systems and processes into documentation that is intuitive, scalable, and easy to maintain.
 
 ## What I Do
 - Product and feature documentation (user guides, release notes, onboarding)
