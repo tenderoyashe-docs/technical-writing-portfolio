@@ -1,7 +1,8 @@
 # Tenderoyashe (Tendi) Zhou
 
 Hi, I’m Tenderoyashe (Tendi) Zhou, a Technical Writer based in Warsaw, Poland.  
-I create clear, structured documentation that helps users, support teams, and product teams move faster with fewer misunderstandings.I specialise in transforming complex systems and processes into documentation that is intuitive, scalable, and easy to maintain.
+I create clear, structured documentation that helps users, support teams, and product teams move faster with fewer misunderstandings.  
+I specialise in transforming complex systems and processes into documentation that is intuitive, scalable, and easy to maintain.
 
 ## What I Do
 - Product and feature documentation (user guides, release notes, onboarding)
@@ -17,15 +18,22 @@ I create clear, structured documentation that helps users, support teams, and pr
 - Visuals: PowerPoint (diagrams and flows)
 - Versioning: GitHub (docs collaboration and review)
 
-## Portfolio
-I’m building out a documentation portfolio here. Sample repositories include:
-- Product documentation samples
-- Knowledge base article samples
-- Process documentation samples
-- Troubleshooting guides and runbooks
+## Portfolio Projects
+
+### Product Documentation
+- [Product Documentation Sample](https://github.com/tenderoyashe-docs/product-documentation-sample)
+
+### Knowledge Base Documentation
+- [Knowledge Base Samples](https://github.com/tenderoyashe-docs/knowledge-base-samples)
+
+### Process Documentation
+- [Process Documentation Sample](https://github.com/tenderoyashe-docs/process-documentation-sample)
+
+### Troubleshooting & Runbooks
+- [Troubleshooting Runbook Sample](https://github.com/tenderoyashe-docs/troubleshooting-runbook-sample)
 
 ## Contact
-- LinkedIn: (https://www.linkedin.com/in/tenderoyashe-nhongo-zhou-b02165196/)
-- Email: (tendizhou@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/tenderoyashe-nhongo-zhou-b02165196/
+- Email: tendizhou@gmail.com
 
 Thanks for stopping by.
