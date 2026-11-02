@@ -17,7 +17,7 @@ This sample documents a small Inventory API accessed through Kong Gateway. It in
 
 ### Architecture
 
-\`\`\`text
+```text
 Developer (curl)
       |
       | GET /inventory/items + apikey header
@@ -30,20 +30,20 @@ Inventory API (internal container:8080)
       |
       v
 JSON response
-\`\`\`
+```
 
 The sample upstream API uses Python's standard library. The gateway is configured declaratively in DB-less mode, so it does not require an external database.
 
 ## Quick demo
 
-Prerequisites: Docker Engine with Docker Compose and \`curl\`.
+Prerequisites: Docker Engine with Docker Compose and `curl`.
 
-\`\`\`bash
+```bash
 docker compose up -d --build
 curl -i http://localhost:8000/inventory/items -H 'apikey: demo-local-only'
 bash scripts/smoke-test.sh
 docker compose down
-\`\`\`
+```
 
 The demo API key is intentionally public and valid **only for this local example**. Do not use it in production or expose the admin interface beyond localhost.
 
@@ -51,17 +51,17 @@ The demo API key is intentionally public and valid **only for this local example
 
 | Location | Purpose |
 | --- | --- |
-| \`docs/\` | Task-oriented guides, reference, troubleshooting, verification |
-| \`openapi.yaml\` | API contract for requests, responses, and errors |
-| \`gateway/kong.yml\` | Declarative Kong Gateway routing and API key policy |
-| \`sample-api/\` | Minimal working upstream API (Python) |
-| \`scripts/smoke-test.sh\` | End-to-end expected-status checks through Kong |
-| \`tests/test_server.py\` | Local unit tests for the upstream API |
-| \`CHANGELOG.md\` | Project maintenance notes |
+| `docs/` | Task-oriented guides, reference, troubleshooting, verification |
+| `openapi.yaml` | API contract for requests, responses, and errors |
+| `gateway/kong.yml` | Declarative Kong Gateway routing and API key policy |
+| `sample-api/` | Minimal working upstream API (Python) |
+| `scripts/smoke-test.sh` | End-to-end expected-status checks through Kong |
+| `tests/test_server.py` | Local unit tests for the upstream API |
+| `CHANGELOG.md` | Project maintenance notes |
 
 ## Validation status
 
-- The Python upstream can be tested without Docker using \`python -m unittest discover -s tests -v\`.
+- The Python upstream can be tested without Docker using `python -m unittest discover -s tests -v`.
 - The complete gateway setup requires Docker Compose; follow the [verification guide](docs/verification.md) and record results before describing the gateway integration as tested.
 - All response examples are illustrative until confirmed against a running environment.
 
