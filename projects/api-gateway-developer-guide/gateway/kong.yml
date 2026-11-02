@@ -1,0 +1,27 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: inventory-upstream
+    url: http://inventory-api:8080
+    routes:
+      - name: inventory-route
+        paths:
+          - /inventory
+        strip_path: true
+
+plugins:
+  - name: key-auth
+    service: inventory-upstream
+    config:
+      key_names:
+        - apikey
+      key_in_header: true
+      key_in_query: false
+      key_in_body: false
+      hide_credentials: true
+
+consumers:
+  - username: developer-demo
+    keyauth_credentials:
+      - key: demo-local-only
