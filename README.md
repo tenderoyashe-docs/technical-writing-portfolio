@@ -33,7 +33,7 @@ I specialise in transforming complex systems and processes into documentation th
 - [Troubleshooting Runbook Sample](https://github.com/tenderoyashe-docs/troubleshooting-runbook-sample)
 
 ## API Gateway Developer Guide
-- [API Gateway Developer Guide](projects/api-gateway-developer-guide/README.md) — executable sample with API reference, authentication, CLI examples, and troubleshooting.
+- [API Gateway Developer Guide](https://github.com/tenderoyashe-docs/api-gateway-developer-guide) — executable sample with API reference, authentication, CLI examples, and troubleshooting.
 
 ## Contact
 - LinkedIn: https://www.linkedin.com/in/tenderoyashe-nhongo-zhou-b02165196/
